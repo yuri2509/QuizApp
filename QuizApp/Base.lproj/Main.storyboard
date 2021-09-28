@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="710.14492753623199" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Score View Controller-->
         <scene sceneID="Wpg-Gk-AVO">
             <objects>
-                <viewController id="qmy-kg-dSK" sceneMemberID="viewController">
+                <viewController id="qmy-kg-dSK" customClass="ScoreViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FVQ-Vn-j2x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
