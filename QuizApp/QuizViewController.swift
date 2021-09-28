@@ -15,6 +15,10 @@ class QuizViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btnAction(sender: UIButton) {
+        print(sender.tag)
+    }
+    
 
     /*
     // MARK: - Navigation
