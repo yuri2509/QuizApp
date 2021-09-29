@@ -8,6 +8,8 @@
 import UIKit
 
 class ScoreViewController: UIViewController {
+    
+    var correct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
