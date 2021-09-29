@@ -39,7 +39,11 @@ class QuizViewController: UIViewController {
     }
     
     @IBAction func btnAction(sender: UIButton) {
-        print(sender.tag)
+        if sender.tag == Int(quizArray[1]) {
+            print("正解")
+        } else {
+            print("不正解")
+        }
     }
 
     func loadCSV(fileName: String) -> [String] {
