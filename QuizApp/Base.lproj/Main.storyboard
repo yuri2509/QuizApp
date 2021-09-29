@@ -112,6 +112,7 @@
                         <outlet property="answerButton4" destination="Atp-cH-JGm" id="uLb-6b-kLM"/>
                         <outlet property="quizNumberLavel" destination="hZM-al-f9V" id="vW9-1f-wzh"/>
                         <outlet property="quizTextView" destination="PsW-Jx-SUV" id="IFW-S8-vsA"/>
+                        <segue destination="qmy-kg-dSK" kind="presentation" identifier="toScoreVC" id="kua-qE-FyN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWd-4F-RVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -121,7 +122,7 @@
         <!--Score View Controller-->
         <scene sceneID="Wpg-Gk-AVO">
             <objects>
-                <viewController id="qmy-kg-dSK" customClass="ScoreViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qmy-kg-dSK" customClass="ScoreViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FVQ-Vn-j2x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="coN-Qe-yox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1368" y="94"/>
+            <point key="canvasLocation" x="1432" y="94"/>
         </scene>
     </scenes>
     <resources>
