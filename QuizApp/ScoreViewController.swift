@@ -8,13 +8,14 @@
 import UIKit
 
 class ScoreViewController: UIViewController {
+    @IBOutlet weak var scoreLavel: UILabel!
     
     var correct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        scoreLavel.text = "\(correct)問正解！"
     }
     
     @IBAction func toTopButtonAction(_ sender: Any) {
