@@ -8,14 +8,25 @@
 import UIKit
 
 class QuizViewController: UIViewController {
+    @IBOutlet weak var quizNumberLavel: UILabel!
+    @IBOutlet weak var quizTextView: UITextView!
+    @IBOutlet weak var answerButton1: UIButton!
+    @IBOutlet weak var answerButton2: UIButton!
+    @IBOutlet weak var answerButton3: UIButton!
+    @IBOutlet weak var answerButton4: UIButton!
     
     var csvArray: [String] = []
-
+    var quizArray: [String] = []
+    var quizCount = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         csvArray = loadCSV(fileName: "quiz")
         print(csvArray)
+        
+        quizArray = csvArray[quizCount].components(separatedBy: ",")
+        print(quizArray)
 
         // Do any additional setup after loading the view.
     }
