@@ -15,6 +15,7 @@
 		D90853012702AE9000459D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90852FF2702AE9000459D85 /* LaunchScreen.storyboard */; };
 		D90853092702B81900459D85 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90853082702B81900459D85 /* QuizViewController.swift */; };
 		D908530B2702FCEE00459D85 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908530A2702FCEE00459D85 /* ScoreViewController.swift */; };
+		D908530D2703114800459D85 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = D908530C2703114800459D85 /* quiz.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D90853022702AE9000459D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D90853082702B81900459D85 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D908530A2702FCEE00459D85 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		D908530C2703114800459D85 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D90852F62702AE8A00459D85 /* SceneDelegate.swift */,
 				D90852F82702AE8A00459D85 /* ViewController.swift */,
 				D90852FA2702AE8A00459D85 /* Main.storyboard */,
+				D908530C2703114800459D85 /* quiz.csv */,
 				D908530A2702FCEE00459D85 /* ScoreViewController.swift */,
 				D90853082702B81900459D85 /* QuizViewController.swift */,
 				D90852FD2702AE9000459D85 /* Assets.xcassets */,
@@ -133,6 +136,7 @@
 				D90853012702AE9000459D85 /* LaunchScreen.storyboard in Resources */,
 				D90852FE2702AE9000459D85 /* Assets.xcassets in Resources */,
 				D90852FC2702AE8A00459D85 /* Main.storyboard in Resources */,
+				D908530D2703114800459D85 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
