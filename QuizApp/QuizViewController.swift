@@ -14,6 +14,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton2: UIButton!
     @IBOutlet weak var answerButton3: UIButton!
     @IBOutlet weak var answerButton4: UIButton!
+    @IBOutlet weak var judgeImageView: UIImageView!
     
     var csvArray: [String] = []
     var quizArray: [String] = []
@@ -44,8 +45,10 @@ class QuizViewController: UIViewController {
         if sender.tag == Int(quizArray[1]) {
             print("正解")
             correctCount += 1
+            judgeImageView.image = UIImage(named: "correct")
         } else {
             print("不正解")
+            judgeImageView.image = UIImage(named: "incorrect")
         }
         print("スコア:\(correctCount)")
         nextQuiz()
