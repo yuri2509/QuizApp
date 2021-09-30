@@ -6,10 +6,17 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ScoreViewController: UIViewController {
     @IBOutlet weak var scoreLavel: UILabel!
     @IBOutlet weak var messageLavel: UILabel!
+    
+    private let perfectSound = try! AVAudioPlayer(data: NSDataAsset(name: "perfect")!.data)
+    
+    private func playSound() {
+        perfectSound.play()
+    }
     
     var correct = 0
 
@@ -22,6 +29,7 @@ class ScoreViewController: UIViewController {
             messageLavel.text = "残念…"
             messageLavel.textColor = UIColor.blue
         } else if 5 == correct {
+            playSound()
             messageLavel.text = "おめでとう！！"
             messageLavel.textColor = UIColor.red
         } else {
