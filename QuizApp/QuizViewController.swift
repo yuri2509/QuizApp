@@ -51,6 +51,10 @@ class QuizViewController: UIViewController {
             judgeImageView.image = UIImage(named: "incorrect")
         }
         print("スコア:\(correctCount)")
+        judgeImageView.isHidden = false
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.judgeImageView.isHidden = true
+        }
         nextQuiz()
     }
     
