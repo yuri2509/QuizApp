@@ -54,8 +54,8 @@ class QuizViewController: UIViewController {
         judgeImageView.isHidden = false
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             self.judgeImageView.isHidden = true
+            self.nextQuiz()
         }
-        nextQuiz()
     }
     
     func nextQuiz() {
