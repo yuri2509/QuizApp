@@ -20,8 +20,10 @@ class ScoreViewController: UIViewController {
         
         if 0 >= correct {
             messageLavel.text = "残念…"
+            messageLavel.textColor = UIColor.blue
         } else if 5 == correct {
             messageLavel.text = "おめでとう！！"
+            messageLavel.textColor = UIColor.red
         } else {
             messageLavel.text = "お疲れ様"
         }
