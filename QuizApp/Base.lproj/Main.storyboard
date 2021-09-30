@@ -148,11 +148,19 @@
                                     <action selector="toTopButtonAction:" destination="qmy-kg-dSK" eventType="touchUpInside" id="4Vp-jq-k4G"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGY-ns-e5H">
+                                <rect key="frame" x="27" y="205" width="367" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zkM-Ny-UDG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="messageLavel" destination="sGY-ns-e5H" id="IOy-Kr-PN7"/>
                         <outlet property="scoreLavel" destination="ALt-aH-ebB" id="F1k-tg-sOu"/>
                     </connections>
                 </viewController>

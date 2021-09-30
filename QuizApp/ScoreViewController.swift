@@ -9,6 +9,7 @@ import UIKit
 
 class ScoreViewController: UIViewController {
     @IBOutlet weak var scoreLavel: UILabel!
+    @IBOutlet weak var messageLavel: UILabel!
     
     var correct = 0
 
@@ -16,6 +17,14 @@ class ScoreViewController: UIViewController {
         super.viewDidLoad()
         
         scoreLavel.text = "\(correct)問正解！"
+        
+        if 0 >= correct {
+            messageLavel.text = "残念…"
+        } else if 5 == correct {
+            messageLavel.text = "おめでとう！！"
+        } else {
+            messageLavel.text = "お疲れ様"
+        }
     }
     
     @IBAction func toTopButtonAction(_ sender: Any) {
