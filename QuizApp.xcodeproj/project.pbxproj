@@ -16,6 +16,12 @@
 		D90853092702B81900459D85 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90853082702B81900459D85 /* QuizViewController.swift */; };
 		D908530B2702FCEE00459D85 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908530A2702FCEE00459D85 /* ScoreViewController.swift */; };
 		D908530D2703114800459D85 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = D908530C2703114800459D85 /* quiz.csv */; };
+		D990F27F2706FCB800A8CF49 /* incorrect .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D990F2792706FCB800A8CF49 /* incorrect .mp3 */; };
+		D990F2802706FCB800A8CF49 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D990F27A2706FCB800A8CF49 /* start.mp3 */; };
+		D990F2812706FCB800A8CF49 /* other_score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D990F27B2706FCB800A8CF49 /* other_score.mp3 */; };
+		D990F2822706FCB800A8CF49 /* not_perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D990F27C2706FCB800A8CF49 /* not_perfect.mp3 */; };
+		D990F2832706FCB800A8CF49 /* correct .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D990F27D2706FCB800A8CF49 /* correct .mp3 */; };
+		D990F2842706FCB800A8CF49 /* perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D990F27E2706FCB800A8CF49 /* perfect.mp3 */; };
 		D9E6C4D0270549D100C5071D /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6C4CE270549D100C5071D /* correct.png */; };
 		D9E6C4D1270549D200C5071D /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6C4CF270549D100C5071D /* incorrect.png */; };
 /* End PBXBuildFile section */
@@ -32,6 +38,12 @@
 		D90853082702B81900459D85 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D908530A2702FCEE00459D85 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		D908530C2703114800459D85 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		D990F2792706FCB800A8CF49 /* incorrect .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "incorrect .mp3"; sourceTree = "<group>"; };
+		D990F27A2706FCB800A8CF49 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		D990F27B2706FCB800A8CF49 /* other_score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = other_score.mp3; sourceTree = "<group>"; };
+		D990F27C2706FCB800A8CF49 /* not_perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = not_perfect.mp3; sourceTree = "<group>"; };
+		D990F27D2706FCB800A8CF49 /* correct .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "correct .mp3"; sourceTree = "<group>"; };
+		D990F27E2706FCB800A8CF49 /* perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect.mp3; sourceTree = "<group>"; };
 		D9E6C4CE270549D100C5071D /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		D9E6C4CF270549D100C5071D /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +78,7 @@
 		D90852F32702AE8A00459D85 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				D990F2782706FCB800A8CF49 /* sound */,
 				D90852F42702AE8A00459D85 /* AppDelegate.swift */,
 				D90852F62702AE8A00459D85 /* SceneDelegate.swift */,
 				D90852F82702AE8A00459D85 /* ViewController.swift */,
@@ -79,6 +92,20 @@
 				D90853022702AE9000459D85 /* Info.plist */,
 			);
 			path = QuizApp;
+			sourceTree = "<group>";
+		};
+		D990F2782706FCB800A8CF49 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				D990F2792706FCB800A8CF49 /* incorrect .mp3 */,
+				D990F27A2706FCB800A8CF49 /* start.mp3 */,
+				D990F27B2706FCB800A8CF49 /* other_score.mp3 */,
+				D990F27C2706FCB800A8CF49 /* not_perfect.mp3 */,
+				D990F27D2706FCB800A8CF49 /* correct .mp3 */,
+				D990F27E2706FCB800A8CF49 /* perfect.mp3 */,
+			);
+			name = sound;
+			path = ../../../Desktop/sound;
 			sourceTree = "<group>";
 		};
 		D9E6C4CD270549D100C5071D /* image */ = {
@@ -147,12 +174,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D990F2822706FCB800A8CF49 /* not_perfect.mp3 in Resources */,
 				D9E6C4D0270549D100C5071D /* correct.png in Resources */,
+				D990F2842706FCB800A8CF49 /* perfect.mp3 in Resources */,
 				D9E6C4D1270549D200C5071D /* incorrect.png in Resources */,
 				D90853012702AE9000459D85 /* LaunchScreen.storyboard in Resources */,
 				D90852FE2702AE9000459D85 /* Assets.xcassets in Resources */,
 				D90852FC2702AE8A00459D85 /* Main.storyboard in Resources */,
+				D990F2802706FCB800A8CF49 /* start.mp3 in Resources */,
 				D908530D2703114800459D85 /* quiz.csv in Resources */,
+				D990F27F2706FCB800A8CF49 /* incorrect .mp3 in Resources */,
+				D990F2832706FCB800A8CF49 /* correct .mp3 in Resources */,
+				D990F2812706FCB800A8CF49 /* other_score.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

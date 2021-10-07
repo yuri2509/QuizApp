@@ -12,21 +12,21 @@ class ScoreViewController: UIViewController {
     @IBOutlet weak var scoreLavel: UILabel!
     @IBOutlet weak var messageLavel: UILabel!
     
-    private let perfectSound = try! AVAudioPlayer(data: NSDataAsset(name: "perfect")!.data)
-    private let not_perfectSound = try! AVAudioPlayer(data: NSDataAsset(name: "not_perfect")!.data)
-    private let otherScoreSound = try! AVAudioPlayer(data: NSDataAsset(name: "other_score")!.data)
-    
-    private func perfectSoundPlay() {
-        perfectSound.play()
-    }
-    
-    private func notPerfectSoundPlay() {
-        not_perfectSound.play()
-    }
-    
-    private func otherScoreSoundPlay() {
-        otherScoreSound.play()
-    }
+//    private let perfectSound = try! AVAudioPlayer(data: NSDataAsset(name: "perfect")!.data)
+//    private let not_perfectSound = try! AVAudioPlayer(data: NSDataAsset(name: "not_perfect")!.data)
+//    private let otherScoreSound = try! AVAudioPlayer(data: NSDataAsset(name: "other_score")!.data)
+//
+//    private func perfectSoundPlay() {
+//        perfectSound.play()
+//    }
+//
+//    private func notPerfectSoundPlay() {
+//        not_perfectSound.play()
+//    }
+//
+//    private func otherScoreSoundPlay() {
+//        otherScoreSound.play()
+//    }
     
     var correct = 0
 
@@ -36,15 +36,15 @@ class ScoreViewController: UIViewController {
         scoreLavel.text = "\(correct)問正解！"
         
         if 0 >= correct {
-            notPerfectSoundPlay()
+//            notPerfectSoundPlay()
             messageLavel.text = "残念…"
             messageLavel.textColor = UIColor.blue
         } else if 5 == correct {
-            perfectSoundPlay()
+//            perfectSoundPlay()
             messageLavel.text = "おめでとう！！"
             messageLavel.textColor = UIColor.red
         } else {
-            otherScoreSoundPlay()
+//            otherScoreSoundPlay()
             messageLavel.text = "お疲れ様"
         }
     }
