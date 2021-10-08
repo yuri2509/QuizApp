@@ -28,6 +28,9 @@ class ScoreViewController: UIViewController {
 //        otherScoreSound.play()
 //    }
     
+    var player:AVAudioPlayer!
+    
+    
     var correct = 0
 
     override func viewDidLoad() {
@@ -39,10 +42,27 @@ class ScoreViewController: UIViewController {
 //            notPerfectSoundPlay()
             messageLavel.text = "残念…"
             messageLavel.textColor = UIColor.blue
+            
+            if let soundURL = Bundle.main.url(forResource: "not_perfect", withExtension: "mp3") {
+                do {
+                    player = try AVAudioPlayer(contentsOf: soundURL)
+                    player.play()
+                } catch {
+                    print("error")
+                }
+            }
         } else if 5 == correct {
 //            perfectSoundPlay()
             messageLavel.text = "おめでとう！！"
             messageLavel.textColor = UIColor.red
+            if let soundURL = Bundle.main.url(forResource: "perfect", withExtension: "mp3") {
+                do {
+                    player = try AVAudioPlayer(contentsOf: soundURL)
+                    player?.play()
+                } catch {
+                    print("error")
+                }
+            }
         } else {
 //            otherScoreSoundPlay()
             messageLavel.text = "お疲れ様"

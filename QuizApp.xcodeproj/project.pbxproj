@@ -38,6 +38,8 @@
 		D90853082702B81900459D85 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D908530A2702FCEE00459D85 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		D908530C2703114800459D85 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		D93219E2271036E500431D0D /* perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect.mp3; sourceTree = "<group>"; };
+		D93219E3271036E900431D0D /* not_perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = not_perfect.mp3; sourceTree = "<group>"; };
 		D990F2792706FCB800A8CF49 /* incorrect .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "incorrect .mp3"; sourceTree = "<group>"; };
 		D990F27A2706FCB800A8CF49 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
 		D990F27B2706FCB800A8CF49 /* other_score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = other_score.mp3; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 				D908530C2703114800459D85 /* quiz.csv */,
 				D908530A2702FCEE00459D85 /* ScoreViewController.swift */,
 				D90853082702B81900459D85 /* QuizViewController.swift */,
+				D93219E2271036E500431D0D /* perfect.mp3 */,
+				D93219E3271036E900431D0D /* not_perfect.mp3 */,
 				D9E6C4CD270549D100C5071D /* image */,
 				D90852FD2702AE9000459D85 /* Assets.xcassets */,
 				D90852FF2702AE9000459D85 /* LaunchScreen.storyboard */,
