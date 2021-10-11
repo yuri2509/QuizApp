@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--Select Lavel View Controller-->
         <scene sceneID="c6U-8f-xBa">
             <objects>
-                <viewController id="xMn-xu-ikW" sceneMemberID="viewController">
+                <viewController id="xMn-xu-ikW" customClass="SelectLavelViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9xU-s8-tnI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

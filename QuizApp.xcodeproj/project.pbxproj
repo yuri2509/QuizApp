@@ -16,6 +16,7 @@
 		D90853092702B81900459D85 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90853082702B81900459D85 /* QuizViewController.swift */; };
 		D908530B2702FCEE00459D85 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908530A2702FCEE00459D85 /* ScoreViewController.swift */; };
 		D908530D2703114800459D85 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = D908530C2703114800459D85 /* quiz.csv */; };
+		D93219E5271487A500431D0D /* SelectLavelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93219E4271487A500431D0D /* SelectLavelViewController.swift */; };
 		D9E6C4D0270549D100C5071D /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6C4CE270549D100C5071D /* correct.png */; };
 		D9E6C4D1270549D200C5071D /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E6C4CF270549D100C5071D /* incorrect.png */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		D90853082702B81900459D85 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D908530A2702FCEE00459D85 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		D908530C2703114800459D85 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		D93219E4271487A500431D0D /* SelectLavelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLavelViewController.swift; sourceTree = "<group>"; };
 		D9E6C4CE270549D100C5071D /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		D9E6C4CF270549D100C5071D /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				D90852F62702AE8A00459D85 /* SceneDelegate.swift */,
 				D90852F82702AE8A00459D85 /* ViewController.swift */,
 				D90852FA2702AE8A00459D85 /* Main.storyboard */,
+				D93219E4271487A500431D0D /* SelectLavelViewController.swift */,
 				D908530C2703114800459D85 /* quiz.csv */,
 				D908530A2702FCEE00459D85 /* ScoreViewController.swift */,
 				D90853082702B81900459D85 /* QuizViewController.swift */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90852F92702AE8A00459D85 /* ViewController.swift in Sources */,
+				D93219E5271487A500431D0D /* SelectLavelViewController.swift in Sources */,
 				D90852F52702AE8A00459D85 /* AppDelegate.swift in Sources */,
 				D908530B2702FCEE00459D85 /* ScoreViewController.swift in Sources */,
 				D90852F72702AE8A00459D85 /* SceneDelegate.swift in Sources */,
