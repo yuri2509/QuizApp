@@ -28,6 +28,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="スタート"/>
+                                <connections>
+                                    <segue destination="xMn-xu-ikW" kind="presentation" id="SEH-D9-fKi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,12 +39,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-965" y="94"/>
+            <point key="canvasLocation" x="-965.21739130434787" y="93.75"/>
         </scene>
         <!--Select Lavel View Controller-->
         <scene sceneID="c6U-8f-xBa">
             <objects>
-                <viewController id="xMn-xu-ikW" customClass="SelectLavelViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xMn-xu-ikW" customClass="SelectLavelViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9xU-s8-tnI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
