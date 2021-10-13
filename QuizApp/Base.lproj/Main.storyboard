@@ -28,9 +28,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="スタート"/>
-                                <connections>
-                                    <segue destination="aWd-0D-4qD" kind="presentation" id="54r-yG-bH4"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="94"/>
+            <point key="canvasLocation" x="-965" y="94"/>
         </scene>
         <!--Select Lavel View Controller-->
         <scene sceneID="c6U-8f-xBa">
@@ -80,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r7L-YM-f7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="395.6521739130435" y="784.82142857142856"/>
+            <point key="canvasLocation" x="-162" y="94"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="lYW-d2-2aW">
@@ -163,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWd-4F-RVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710.14492753623199" y="93.75"/>
+            <point key="canvasLocation" x="651" y="94"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="Wpg-Gk-AVO">
