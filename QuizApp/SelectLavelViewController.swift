@@ -15,6 +15,10 @@ class SelectLavelViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func levelButtonAction(sender: UIButton){
+        print(sender.tag)
+    }
+    
 
     /*
     // MARK: - Navigation
