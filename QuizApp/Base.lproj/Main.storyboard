@@ -87,7 +87,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="aWd-0D-4qD" kind="presentation" id="2Xy-Xp-WZM"/>
+                        <segue destination="aWd-0D-4qD" kind="presentation" identifier="QuizVC" id="2Xy-Xp-WZM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r7L-YM-f7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
