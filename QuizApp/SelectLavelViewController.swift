@@ -17,7 +17,7 @@ class SelectLavelViewController: UIViewController {
     
     @IBAction func levelButtonAction(sender: UIButton){
         print(sender.tag)
-        performSegue(withIdentifier: "toQuizVC", sender: nill)
+        performSegue(withIdentifier: "toQuizVC", sender: nil)
     }
     
 
