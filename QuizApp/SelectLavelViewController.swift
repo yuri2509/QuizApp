@@ -9,6 +9,8 @@ import UIKit
 
 class SelectLavelViewController: UIViewController {
 
+   var selectTag = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
