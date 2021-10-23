@@ -25,7 +25,7 @@ class QuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("洗濯したのはジャンル\(selectLevel)")
+        print("選択したのはジャンル\(selectLevel)")
         
         csvArray = loadCSV(fileName: "quiz")
         print(csvArray)
